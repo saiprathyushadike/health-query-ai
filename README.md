@@ -79,15 +79,31 @@ A comprehensive **Retrieval-Augmented Generation (RAG)** health information syst
 
 ## 📦 Installation & Setup
 
-### **Prerequisites**
-- Python 3.9 or higher
-- Ollama installed and running
-- Git for version control
-
-### **Quick Start**
+### **🚀 Quick Start (Recommended)**
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/saiprathyushadike/health-query-ai.git
+cd health-query-ai
+
+# Run automated setup (installs everything automatically)
+python setup.py
+
+# Start the application
+./run.sh  # Mac/Linux
+# or
+run.bat   # Windows
+```
+
+### **📋 Prerequisites**
+- Python 3.9 or higher
+- 4GB+ RAM (8GB recommended)
+- 5GB free storage space
+- Internet connection (for initial setup)
+
+### **🔧 Manual Setup (Alternative)**
+```bash
+# Clone the repository
+git clone https://github.com/saiprathyushadike/health-query-ai.git
 cd health-query-ai
 
 # Create virtual environment
@@ -104,6 +120,9 @@ ollama pull llama2
 # Run the main application
 streamlit run app_concise.py
 ```
+
+### **📖 Detailed Installation Guide**
+For step-by-step instructions and troubleshooting, see [INSTALL.md](INSTALL.md)
 
 ### **Alternative Versions**
 ```bash
