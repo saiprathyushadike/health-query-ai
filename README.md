@@ -2,6 +2,9 @@
 
 A comprehensive **Retrieval-Augmented Generation (RAG)** health information system that provides accurate, sourced medical information using local AI models and advanced web scraping techniques.
 
+https://github.com/user-attachments/assets/9be72b02-8834-4255-9477-174ce44e91f3
+
+
 ## 🚀 What Health Query AI Is Made Of
 
 ### **🤖 Core AI & Machine Learning Stack**
