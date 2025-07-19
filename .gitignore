@@ -1,0 +1,113 @@
+# Health Query AI - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+ragbot-env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+health-ai-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files (large files that shouldn't be in repo)
+data/raw/mayo_clinic_fast_data.json
+data/processed/chroma_db/
+*.json
+*.pkl
+*.pickle
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Ollama models (too large for GitHub)
+models/
+ollama_models/
+
+# Large model files
+*.bin
+*.safetensors
+*.gguf
+
+# Cache directories
+.cache/
+cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/ 
