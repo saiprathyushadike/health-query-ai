@@ -1,4 +1,4 @@
-# �� Health Query AI
+# 🏥 Health Query AI
 
 A comprehensive **Retrieval-Augmented Generation (RAG)** health information system that provides accurate, sourced medical information using local AI models and advanced web scraping techniques.
 
