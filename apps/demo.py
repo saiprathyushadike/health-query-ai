@@ -41,11 +41,13 @@ def run_demo():
             start_time = time.time()
             
             try:
-                response = rag_system.query(question)
+                response = rag_system.answer_question(question)
                 end_time = time.time()
                 
                 print(f"🤖 Response ({end_time - start_time:.2f}s):")
-                print(response)
+                print(response.get('answer', 'No answer generated'))
+                if response.get('sources'):
+                    print(f"📚 Sources: {len(response['sources'])} documents")
                 
             except Exception as e:
                 print(f"❌ Error: {e}")
